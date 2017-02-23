@@ -1,0 +1,270 @@
+body { 
+    font-family: arial;
+    margin: 0;
+    background-color: #262626;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #634271;
+}
+
+p {
+    font-size: 10pt;
+    text-indent: 7%
+}
+
+h1 {
+    text-indent: 7%
+}
+
+.textinput label, .cscinput label {
+    display: inline-block;
+    width: 30%;
+    text-align: right
+}
+
+.textinput input {
+    width: 30%;
+}
+
+.cscinput input {
+    width: 5%;
+}
+
+.form {
+    margin-left:auto;
+    margin-right:auto;
+    width: 85%;
+}
+
+.button a, .button a:visited{
+    background-color: #634271;
+    color: #FFF;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.help p{
+    background-color: #634271;
+    color: #FFF;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.loginform {
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+}
+
+#submit input {
+    margin-left: 45%
+}
+
+#header {
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 85%;
+}
+
+#header img {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    border-color: #ddd;
+    width: 350px;
+    height:auto ;
+    margin-bottom: -15px
+}
+
+#logout {
+    margin-bottom: -20px
+}
+
+#logout h3 {
+    font-size: 13pt;
+}
+
+#logout a {
+    color: #fff;
+}
+
+#logout a:hover {
+    color: #634271;
+}
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:1300px;
+}
+
+#left {
+    width: 20%;
+    min-width: 15%;
+    margin: auto;
+    float: left;
+    color: white;
+}
+
+#main { 
+    position: static;
+    float: right;
+    width: 80%;
+} 
+  
+#products, #checkout, #product, #cart { 
+    width:76%;
+    min-height: 70%;
+    background-color: white;
+    float:left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-right: 20px solid #634271;
+}
+
+#login {
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center
+}
+
+#checkout h2{
+    text-indent: 7%;
+}
+
+#image {
+    margin-left:auto;
+    margin-right:auto;
+    width: 85%;
+}
+
+#image img {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    border-color: #ddd;
+}
+
+#basic {
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    width: 40%;
+}
+
+#basic p {
+    font-size: 14pt
+}
+
+
+#cart table {
+    border-collapse: collapse;
+}
+
+#cart th, #cart td {
+    border-bottom: 1px solid #ddd;
+    height: 40px
+}
+
+#cart tr:hover {
+    background-color: #f5f5f5
+}
+
+#cart p {
+    text-align: right;
+    margin-right: 10%
+}
+
+#footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-size: 8pt;
+    padding: 10px 10px 10px 20px;
+    white-space: nowrap;
+    margin-top: 15px
+}
+
+.amd {
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+    display:inline-block;
+    background:transparent url('images/amd.png');
+}
+
+.nvida {
+    width: 62px;
+    height: 50px;
+    display:inline-block;
+    background:transparent url('images/nvida.png');
+}
+
+#basket {
+    float: right;
+    width:22%;
+    min-height: 35%;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center
+}
+
+#left ul {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 30px 5px 30px 5px;
+    width: 100%;
+    background-color: #1a1a1a;
+    float: right;
+    text-indent: 5%;
+    font-size: 13pt;
+}
+
+#left li a {
+    display: block;
+    color: white;
+    padding: 8px 0 8px 20px;
+    text-decoration: none;
+}
+
+#left li a:hover {
+    color: #fff;
+    background-color: #634271;
+    text-indent: 7%;
+    font-weight: bold;
+}
+
+#products img {
+    width: 100%;
+    height: 16%;
+}
+
+ul.products {
+    margin: 0 auto;
+    list-style-type: none;
+    width: 85%;
+}
+
+ul.products li {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
